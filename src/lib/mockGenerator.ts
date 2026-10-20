@@ -1,4 +1,4 @@
-import { EventPlan, EventType } from '@/types/event';
+import type { EventPlan, EventType } from '../types/event';
 
 interface GeneratorInputs {
   eventType: EventType;
